@@ -17,7 +17,7 @@ export const routes: Routes = [
       .then(m => m.BatteryServiceComponent)
   },
   {
-    path: 'booking',
+    path: 'bookings',
     loadComponent: () => import('./components/booking-list/booking-list.component')
       .then(m => m.BookingListComponent)
   },
